@@ -39,12 +39,12 @@
                 "notification"
               ],
               "topRow": 0,
-              "bottomRow": 600,
+              "bottomRow": 60,
               "parentRowSpace": 1,
               "type": "MODAL_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
-              "minHeight": 550,
+              "minHeight": 620,
               "animateLoading": true,
               "parentColumnSpace": 1,
               "dynamicTriggerPathList": [],
@@ -79,8 +79,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 41,
-                      "bottomRow": 45,
+                      "topRow": 44,
+                      "bottomRow": 48,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -134,8 +134,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 41,
-                      "bottomRow": 45,
+                      "topRow": 44,
+                      "bottomRow": 48,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -144,7 +144,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 25,
+                      "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -164,7 +164,7 @@
                       "text": "{{Table1.selectedRow[11]}}",
                       "key": "2yq5gmfwhv",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 60,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "sltga4d1qs",
@@ -189,8 +189,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 36,
-                      "bottomRow": 40,
+                      "topRow": 40,
+                      "bottomRow": 44,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -244,8 +244,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 36,
-                      "bottomRow": 40,
+                      "topRow": 40,
+                      "bottomRow": 44,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -254,7 +254,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 25,
+                      "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -274,7 +274,7 @@
                       "text": "{{Table1.selectedRow[9]}}",
                       "key": "2yq5gmfwhv",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 60,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "g6ywyv623o",
@@ -299,8 +299,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 31,
-                      "bottomRow": 35,
+                      "topRow": 36,
+                      "bottomRow": 40,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -354,8 +354,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 31,
-                      "bottomRow": 35,
+                      "topRow": 36,
+                      "bottomRow": 40,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -364,7 +364,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 25,
+                      "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -384,7 +384,7 @@
                       "text": "{{Table1.selectedRow[7]}}",
                       "key": "2yq5gmfwhv",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 60,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "wstwy513w0",
@@ -409,8 +409,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 27,
-                      "bottomRow": 31,
+                      "topRow": 32,
+                      "bottomRow": 36,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -419,7 +419,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 25,
+                      "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -439,7 +439,7 @@
                       "text": "{{Table1.selectedRow[5]}}",
                       "key": "2yq5gmfwhv",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 60,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "lc7f1van4b",
@@ -609,13 +609,13 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 47,
-                      "bottomRow": 51,
+                      "topRow": 27,
+                      "bottomRow": 31,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 4,
+                      "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -625,7 +625,7 @@
                       "isDisabled": false,
                       "key": "qfo3kpn66z",
                       "isDeprecated": false,
-                      "rightColumn": 20,
+                      "rightColumn": 42,
                       "isDefaultClickDisabled": true,
                       "widgetId": "fic7wts5pv",
                       "buttonStyle": "PRIMARY",
@@ -646,7 +646,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button2",
-                      "onClick": "{{GuardaComentarios.run(() => JSCerrarModal.CerrarModal(), () => {})}}",
+                      "onClick": "{{GuardaComentarios.run(() => closeModal('Modal1'), () => {})}}",
                       "buttonColor": "#550101",
                       "dynamicPropertyPathList": [],
                       "displayName": "Button",
@@ -655,8 +655,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 47,
-                      "bottomRow": 51,
+                      "topRow": 27,
+                      "bottomRow": 31,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -675,7 +675,7 @@
                       "isDisabled": false,
                       "key": "qfo3kpn66z",
                       "isDeprecated": false,
-                      "rightColumn": 59,
+                      "rightColumn": 60,
                       "isDefaultClickDisabled": true,
                       "widgetId": "12p8bmezas",
                       "buttonStyle": "PRIMARY_BUTTON",
@@ -937,8 +937,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 27,
-                      "bottomRow": 31,
+                      "topRow": 32,
+                      "bottomRow": 36,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1033,10 +1033,10 @@
                       "parentId": "o1l5w1oa0m",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 47,
+                      "originalTopRow": 54,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 51,
+                      "originalBottomRow": 58,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -1055,7 +1055,7 @@
                 }
               ],
               "key": "zjdmmdrqff",
-              "height": 600,
+              "height": 620,
               "isDeprecated": false,
               "rightColumn": 0,
               "detachFromLayout": true,
