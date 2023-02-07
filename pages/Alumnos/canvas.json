@@ -646,7 +646,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button2",
-                      "onClick": "{{GuardaParte.run(() => navigateTo('Parte Creado', {}, 'SAME_WINDOW'), () => showAlert('Error al crear el parte.'))}}",
+                      "onClick": "{{GuardaComentarios.run(() => closeModal(), () => {})}}",
                       "buttonColor": "#550101",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -1064,10 +1064,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 61,
+              "originalTopRow": 16,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 65,
+              "originalBottomRow": 20,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -1783,7 +1783,7 @@
                       "originalTopRow": 4,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 8,
+                      "originalBottomRow": 9,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -1928,7 +1928,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 61,
+              "originalBottomRow": 16,
               "minDynamicHeight": 15
             }
           ]
