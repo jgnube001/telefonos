@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Parte Creado",
-      "isDefault": false
-    },
-    {
       "id": "Login",
       "isDefault": true
     },
