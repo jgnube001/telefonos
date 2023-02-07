@@ -27,10 +27,6 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
-          "key": "valueInputOption",
-          "value": "USER_ENTERED"
-        },
-        {
           "key": "includeValuesInResponse",
           "value": "true"
         }
