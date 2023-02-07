@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/v4/spreadsheets/1jEIp5bratPGYyuJ4KlzTqlX_gLzQ26sOPe1gb3mfl8s/values/",
+      "path": "/v4/spreadsheets/1jEIp5bratPGYyuJ4KlzTqlX_gLzQ26sOPe1gb3mfl8s/values",
       "headers": [
         {
           "key": "content-type",
@@ -25,7 +25,16 @@
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "valueInputOption",
+          "value": "USER_ENTERED"
+        },
+        {
+          "key": "includeValuesInResponse",
+          "value": "true"
+        }
+      ],
       "body": "{\n  \"range\": \"Alumnos!D{{Table1.selectedRowIndex+1}}\",\n  \"majorDimension\": \"ROWS\"\n\t\"values\": [\n    [\n      \"{{ModalComentarios.text}}\"\n    ]\n  ]\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
