@@ -31,7 +31,7 @@
           "value": "USER_ENTERED"
         }
       ],
-      "body": "{\n  \"range\":\"{{CeldaActualizar.text}}\",\n  \"majorDimension\":\"ROWS\",\n\t\"values\": [\n    [\"{{ModalComentarios.text}}  {{oauth_continue.data.name}}\"]\n  ]\n}",
+      "body": "{\n  \"range\":\"{{CeldaActualizar.text}}\",\n  \"majorDimension\":\"ROWS\",\n\t\"values\": [\n    [\"{{ModalComentarios.text}}-{{oauth_continue.data.name}}\"]\n  ]\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
