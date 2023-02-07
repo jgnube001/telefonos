@@ -1019,7 +1019,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Alumnos!C{{Table1.selectedRow.id+2}}",
+                      "text": "Alumnos!D{{Table1.selectedRow.id+2}}",
                       "key": "tzs748ovvv",
                       "isDeprecated": false,
                       "rightColumn": 39,
@@ -1122,10 +1122,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 16,
+              "originalTopRow": 15,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 20,
+              "originalBottomRow": 19,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -1986,7 +1986,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 16,
+              "originalBottomRow": 15,
               "minDynamicHeight": 15
             },
             {
