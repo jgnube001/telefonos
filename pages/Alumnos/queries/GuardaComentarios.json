@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/v4/spreadsheets/1jEIp5bratPGYyuJ4KlzTqlX_gLzQ26sOPe1gb3mfl8s/values/{{CeldaActualizar.text}}",
+      "path": "/v4/spreadsheets/1eg3tiH5gDbBdb1qje9L0XUvcMWexfvG2fX4rwKH_rTI/values/{{CeldaActualizar.text}}",
       "headers": [
         {
           "key": "content-type",
@@ -31,7 +31,7 @@
           "value": "USER_ENTERED"
         }
       ],
-      "body": "{\n  \"range\":\"{{CeldaActualizar.text}}\",\n  \"majorDimension\":\"ROWS\",\n\t\"values\": [\n    [\"{{ModalComentarios}}\"]\n  ]\n}",
+      "body": "{\n  \"range\":\"{{CeldaActualizar.text}}\",\n  \"majorDimension\":\"ROWS\",\n\t\"values\": [\n    [\"{{ModalComentarios.text}} ({{oauth_continue.data.name}})\"]\n  ]\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -58,7 +58,8 @@
     "messages": [],
     "jsonPathKeys": [
       "CeldaActualizar.text",
-      "ModalComentarios"
+      "ModalComentarios.text",
+      "oauth_continue.data.name"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
