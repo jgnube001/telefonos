@@ -646,7 +646,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button2",
-                      "onClick": "{{GuardaComentarios.run(() => closeModal('Modal1'), () => {})}}",
+                      "onClick": "{{GuardaComentarios.run(() => JSCerrarModal.CerrarModal(), () => {})}}",
                       "buttonColor": "#550101",
                       "dynamicPropertyPathList": [],
                       "displayName": "Button",
