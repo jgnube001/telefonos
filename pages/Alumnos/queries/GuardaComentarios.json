@@ -35,7 +35,7 @@
           "value": "true"
         }
       ],
-      "body": "{\n  \"range\": \"Alumnos!D{{Table1.selectedRowIndex+1}}D{{Table1.selectedRowIndex+1}}\",\n  \"majorDimension\": \"ROWS\"\n\t\"values\": [\n    [\n      \"{{ModalComentarios.text}}\"\n    ]\n  ]\n}",
+      "body": "{\n  \"range\": \"Alumnos!D{{Table1.selectedRowIndex+1}}:D{{Table1.selectedRowIndex+1}}\",\n  \"majorDimension\": \"ROWS\"\n\t\"values\": [\n    [\n      \"{{ModalComentarios.text}}\"\n    ]\n  ]\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
