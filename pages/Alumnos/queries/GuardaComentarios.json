@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/v4/spreadsheets/1jEIp5bratPGYyuJ4KlzTqlX_gLzQ26sOPe1gb3mfl8s/values/Alumnos",
+      "path": "/v4/spreadsheets/1jEIp5bratPGYyuJ4KlzTqlX_gLzQ26sOPe1gb3mfl8s/values/{{CeldaActualizar.text}}",
       "headers": [
         {
           "key": "content-type",
@@ -29,13 +29,9 @@
         {
           "key": "valueInputOption",
           "value": "USER_ENTERED"
-        },
-        {
-          "key": "includeValuesInResponse",
-          "value": "true"
         }
       ],
-      "body": "{\n  \"range\": \"Alumnos!D{{Table1.selectedRowIndex+1}}\",\n  \"majorDimension\": \"ROWS\"\n\t\"values\": [\n    [\n      \"{{ModalComentarios.text}}\"\n    ]\n  ]\n}",
+      "body": "{\n  \"range\":\"{{CeldaActualizar.text}}\",\n  \"majorDimension\":\"ROWS\",\n\t\"values\": [\n    [\"{{ModalComentarios}}\"]\n  ]\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -51,6 +47,9 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
+        "key": "path"
+      },
+      {
         "key": "body"
       }
     ],
@@ -58,8 +57,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "ModalComentarios.text",
-      "Table1.selectedRowIndex+1"
+      "CeldaActualizar.text",
+      "ModalComentarios"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

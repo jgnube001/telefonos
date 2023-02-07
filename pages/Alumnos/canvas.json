@@ -39,12 +39,12 @@
                 "notification"
               ],
               "topRow": 0,
-              "bottomRow": 530,
+              "bottomRow": 53,
               "parentRowSpace": 1,
               "type": "MODAL_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
-              "minHeight": 390,
+              "minHeight": 550,
               "animateLoading": true,
               "parentColumnSpace": 1,
               "dynamicTriggerPathList": [],
@@ -615,7 +615,7 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
+                      "leftColumn": 17,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -625,7 +625,7 @@
                       "isDisabled": false,
                       "key": "qfo3kpn66z",
                       "isDeprecated": false,
-                      "rightColumn": 19,
+                      "rightColumn": 33,
                       "isDefaultClickDisabled": true,
                       "widgetId": "fic7wts5pv",
                       "buttonStyle": "PRIMARY",
@@ -648,6 +648,11 @@
                       "widgetName": "Button2",
                       "onClick": "{{GuardaComentarios.run(() => closeModal(), () => {})}}",
                       "buttonColor": "#550101",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -981,6 +986,63 @@
                       "maxDynamicHeight": 9000,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "CeldaActualizar",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 47,
+                      "bottomRow": 51,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.4921875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Alumnos!C{{Table1.selectedRow.id+2}}",
+                      "key": "tzs748ovvv",
+                      "isDeprecated": false,
+                      "rightColumn": 17,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "jq9rcbu8ak",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "o1l5w1oa0m",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 47,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 51,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "isDisabled": false,
@@ -997,7 +1059,7 @@
                 }
               ],
               "key": "zjdmmdrqff",
-              "height": 530,
+              "height": 550,
               "isDeprecated": false,
               "rightColumn": 0,
               "detachFromLayout": true,
@@ -1064,10 +1126,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 16,
+              "originalTopRow": 62,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 20,
+              "originalBottomRow": 66,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -1222,7 +1284,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 54,
+                      "originalBottomRow": 55,
                       "primaryColumnId": "id",
                       "defaultSelectedRowIndices": [
                         0
@@ -1644,7 +1706,7 @@
                       "renderMode": "CANVAS",
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": true,
-                      "originalTopRow": 5,
+                      "originalTopRow": 6,
                       "isVisiblePagination": false,
                       "verticalAlignment": "CENTER"
                     },
@@ -1698,7 +1760,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
+                      "originalBottomRow": 6,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -1783,7 +1845,7 @@
                       "originalTopRow": 4,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 8,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -1928,7 +1990,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 16,
+              "originalBottomRow": 62,
               "minDynamicHeight": 15
             }
           ]
