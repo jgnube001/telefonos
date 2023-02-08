@@ -31,7 +31,7 @@
           "value": "USER_ENTERED"
         }
       ],
-      "body": "{\n  \"range\":\"{{CeldaActualizar.text}}\",\n  \"majorDimension\":\"ROWS\",\n\t\"values\": [\n    [\"{{ModalComentarios.text}}\"]\n  ]\n}",
+      "body": "{\n  \"range\":\"{{CeldaActualizar.text}}\",\n  \"majorDimension\":\"ROWS\",\n\t\"values\": [\n    [\"{{AuxComentarios.text}}\"]\n  ]\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -57,8 +57,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "CeldaActualizar.text",
-      "ModalComentarios.text"
+      "AuxComentarios.text",
+      "CeldaActualizar.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
